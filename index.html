@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abdullah Mufarreh Alanezi</title>
-    <!-- Use Inter font from Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <!-- Load Tailwind CSS from CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
@@ -18,99 +18,113 @@
 </head>
 <body class="bg-slate-900 text-gray-200">
 
-    <!-- Main Container -->
     <div class="container mx-auto px-4 py-8 max-w-4xl">
 
-        <!-- Header Section with Profile Picture and Title -->
-        <header class="flex flex-col md:flex-row items-center justify-between p-6 bg-gray-800 rounded-3xl shadow-lg mb-8">
-            <div class="flex items-center space-x-6">
-                <!-- Profile Picture (Placeholder) -->
+        <header class="flex flex-col md:flex-row items-center justify-center md:justify-between p-6 bg-gray-800 rounded-3xl shadow-xl mb-8">
+            <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
                 <img
                     src="https://placehold.co/120x120/1a202c/f7fafc?text=AA"
-                    alt="Profile Picture"
+                    alt="Abdullah Alanezi Profile Picture"
                     class="rounded-full w-24 h-24 sm:w-32 sm:h-32 object-cover ring-4 ring-purple-600"
                 >
-                <!-- Name and Title -->
                 <div class="text-center md:text-left">
                     <h1 class="text-4xl sm:text-5xl font-extrabold text-white">Abdullah Mufarreh Alanezi</h1>
                     <p class="mt-2 text-xl sm:text-2xl font-medium text-purple-400">Software Engineer | Full-Stack Developer</p>
                 </div>
             </div>
-            <!-- Social Media/Contact Links -->
             <div class="flex mt-4 md:mt-0 space-x-4">
-                <a href="https://www.linkedin.com/in/abdullah-alanezi-7388b1259/" target="_blank" class="text-gray-400 hover:text-white transition duration-300">
-                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                        <!-- LinkedIn Icon SVG -->
+                <a href="https://www.linkedin.com/in/abdullah-alanezi-7388b1259/" target="_blank" class="text-gray-400 hover:text-purple-400 transition-colors duration-300" aria-label="LinkedIn profile">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" role="img">
                         <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.763s.784-1.763 1.75-1.763 1.75.79 1.75 1.763-.783 1.763-1.75 1.763zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
                     </svg>
                 </a>
-                <a href="https://github.com/abdullah-alanezi" target="_blank" class="text-gray-400 hover:text-white transition duration-300">
-                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                        <!-- GitHub Icon SVG (URL not provided in CV) -->
+                <a href="https://github.com/abdullah-alanezi" target="_blank" class="text-gray-400 hover:text-purple-400 transition-colors duration-300" aria-label="GitHub profile">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" role="img">
                         <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.418 2.865 8.18 6.839 9.504.499.09.679-.217.679-.481 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.474-1.11-1.474-.908-.619.069-.605.069-.605 1.006.075 1.531 1.032 1.531 1.032.892 1.529 2.341 1.087 2.91.832.09-.64.354-1.087.611-1.334-2.22-.253-4.555-1.116-4.555-4.942 0-1.096.39-1.99 1.029-2.693-.103-.253-.446-1.27.098-2.656 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.026 2.747-1.026.546 1.386.202 2.403.098 2.656.64.704 1.028 1.598 1.028 2.693 0 3.83-2.339 4.681-4.569 4.935.359.309.678.92.678 1.855 0 1.334-.012 2.41-.012 2.737 0 .265.18.575.684.478C21.144 20.218 24 16.44 24 12.017 24 6.484 19.522 2 14 2h-2z" clip-rule="evenodd"/>
                     </svg>
                 </a>
             </div>
         </header>
 
-        <!-- About Me Section -->
-        <section class="p-6 bg-gray-800 rounded-3xl shadow-lg mb-8">
+        <section class="p-6 bg-gray-800 rounded-3xl shadow-xl mb-8">
             <h2 class="text-3xl font-bold text-white mb-4">Summary</h2>
             <p class="text-gray-400 leading-relaxed">
                 A highly motivated Software Engineer with a Bachelor's degree in Software Engineering. Specializing in web development using Python and Django, with a focus on creating secure, scalable, and efficient solutions. Skilled in server administration, database management, and deployment in cloud environments. Passionate about building innovative projects in dynamic tech environments.
             </p>
         </section>
-
-        <!-- Skills Section -->
-        <section class="p-6 bg-gray-800 rounded-3xl shadow-lg mb-8">
+        <section class="p-6 bg-gray-800 rounded-3xl shadow-xl mb-8">
             <h2 class="text-3xl font-bold text-white mb-6">Skills</h2>
             <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-                <!-- Technical Skills -->
-                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:scale-105 transition-transform duration-300">
-                    <span class="text-3xl">💻</span>
-                    <p class="mt-2 text-white font-semibold">Backend Development</p>
+                
+                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:bg-purple-600 hover:text-white transition transform hover:scale-105">
+                    <i class="devicon-python-plain text-5xl text-yellow-400"></i>
+                    <p class="mt-2 text-gray-200 font-semibold">Python</p>
                 </div>
-                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:scale-105 transition-transform duration-300">
-                    <span class="text-3xl">🌐</span>
-                    <p class="mt-2 text-white font-semibold">Frontend Technologies</p>
+
+                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:bg-purple-600 hover:text-white transition transform hover:scale-105">
+                    <i class="devicon-javascript-plain text-5xl text-yellow-300"></i>
+                    <p class="mt-2 text-gray-200 font-semibold">JavaScript</p>
                 </div>
-                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:scale-105 transition-transform duration-300">
-                    <span class="text-3xl">🖥️</span>
-                    <p class="mt-2 text-white font-semibold">Server Administration</p>
+
+                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:bg-purple-600 hover:text-white transition transform hover:scale-105">
+                    <i class="devicon-django-plain colored text-5xl"></i>
+                    <p class="mt-2 text-gray-200 font-semibold">Django</p>
                 </div>
-                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:scale-105 transition-transform duration-300">
-                    <span class="text-3xl">🗄️</span>
-                    <p class="mt-2 text-white font-semibold">Database Management</p>
+
+                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:bg-purple-600 hover:text-white transition transform hover:scale-105">
+                    <i class="devicon-tailwindcss-plain colored text-5xl"></i>
+                    <p class="mt-2 text-gray-200 font-semibold">Tailwind CSS</p>
                 </div>
-                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:scale-105 transition-transform duration-300">
-                    <span class="text-3xl">☁️</span>
-                    <p class="mt-2 text-white font-semibold">DevOps & Deployment</p>
+                
+                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:bg-purple-600 hover:text-white transition transform hover:scale-105">
+                    <i class="devicon-html5-plain text-5xl text-orange-500"></i>
+                    <p class="mt-2 text-gray-200 font-semibold">HTML5</p>
                 </div>
-                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:scale-105 transition-transform duration-300">
-                    <span class="text-3xl">🛠️</span>
-                    <p class="mt-2 text-white font-semibold">Version Control</p>
+
+                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:bg-purple-600 hover:text-white transition transform hover:scale-105">
+                    <i class="devicon-css3-plain text-5xl text-blue-500"></i>
+                    <p class="mt-2 text-gray-200 font-semibold">CSS</p>
                 </div>
-                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:scale-105 transition-transform duration-300">
-                    <span class="text-3xl">⚙️</span>
-                    <p class="mt-2 text-white font-semibold">Tools & Environments</p>
+
+                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:bg-purple-600 hover:text-white transition transform hover:scale-105">
+                    <i class="devicon-postgresql-plain colored text-5xl"></i>
+                    <p class="mt-2 text-gray-200 font-semibold">PostgreSQL</p>
                 </div>
+
+                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:bg-purple-600 hover:text-white transition transform hover:scale-105">
+                    <i class="devicon-git-plain colored text-5xl"></i>
+                    <p class="mt-2 text-gray-200 font-semibold">Git</p>
+                </div>
+
+                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:bg-purple-600 hover:text-white transition transform hover:scale-105">
+                    <i class="devicon-ubuntu-plain colored text-5xl"></i>
+                    <p class="mt-2 text-gray-200 font-semibold">Ubuntu Server</p>
+                </div>
+
+                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:bg-purple-600 hover:text-white transition transform hover:scale-105">
+                    <i class="devicon-bootstrap-plain colored text-5xl"></i>
+                    <p class="mt-2 text-gray-200 font-semibold">Bootstrap</p>
+                </div>
+
+                <div class="bg-gray-700 p-4 rounded-xl text-center shadow-md hover:bg-purple-600 hover:text-white transition transform hover:scale-105">
+                    <i class="devicon-fastapi-plain colored text-5xl"></i>
+                    <p class="mt-2 text-gray-200 font-semibold">API Development</p>
+                </div>
+
             </div>
         </section>
 
-        <!-- Experience Section -->
-        <section class="p-6 bg-gray-800 rounded-3xl shadow-lg mb-8">
+        <section class="p-6 bg-gray-800 rounded-3xl shadow-xl mb-8">
             <h2 class="text-3xl font-bold text-white mb-6">Professional Experience</h2>
             <div class="space-y-6">
-                <!-- Experience Item 1 -->
-                <div class="bg-gray-700 p-6 rounded-2xl shadow-md">
+                <div class="bg-gray-700 p-6 rounded-2xl shadow-md transition-all duration-300 hover:bg-gray-600">
                     <h3 class="text-xl font-semibold text-purple-300">Back-End Developer</h3>
                     <p class="text-sm font-light text-gray-400">Future Motion Innovations | Jul 2024 - Present</p>
                     <ul class="list-disc list-inside mt-2 text-gray-300 space-y-1">
                         <li>Developed and deployed web applications using Django framework for multiple projects.</li>
                     </ul>
                 </div>
-                <!-- Experience Item 2 -->
-                <div class="bg-gray-700 p-6 rounded-2xl shadow-md">
+                <div class="bg-gray-700 p-6 rounded-2xl shadow-md transition-all duration-300 hover:bg-gray-600">
                     <h3 class="text-xl font-semibold text-purple-300">Software Engineer</h3>
                     <p class="text-sm font-light text-gray-400">Hail Region Municipality | Jul 2024 - Jan 2025</p>
                     <ul class="list-disc list-inside mt-2 text-gray-300 space-y-1">
@@ -119,8 +133,7 @@
                         <li>Ensured project goals were achieved efficiently.</li>
                     </ul>
                 </div>
-                <!-- Experience Item 3 -->
-                <div class="bg-gray-700 p-6 rounded-2xl shadow-md">
+                <div class="bg-gray-700 p-6 rounded-2xl shadow-md transition-all duration-300 hover:bg-gray-600">
                     <h3 class="text-xl font-semibold text-purple-300">IT Support | COOP Training</h3>
                     <p class="text-sm font-light text-gray-400">Mar 2023 - Oct 2023</p>
                     <ul class="list-disc list-inside mt-2 text-gray-300 space-y-1">
@@ -132,42 +145,42 @@
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section class="p-6 bg-gray-800 rounded-3xl shadow-lg mb-8">
+        <section class="p-6 bg-gray-800 rounded-3xl shadow-xl mb-8">
             <h2 class="text-3xl font-bold text-white mb-6">Projects</h2>
             <div class="space-y-6">
-                <!-- Project Item 1 -->
-                <div class="bg-gray-700 p-6 rounded-2xl shadow-md">
+                <div class="bg-gray-700 p-6 rounded-2xl shadow-md transition-all duration-300 hover:bg-gray-600">
+                    <img src="images/fmi.png" alt="FMI Website Project" class="rounded-xl w-full h-40 object-cover mb-4">
                     <h3 class="text-xl font-semibold text-purple-300">FMI Website</h3>
-                    <p class="text-sm font-light text-gray-400">Website: <a href="https://fmi.sa" class="text-blue-400 hover:underline">https://fmi.sa</a></p>
+                    <p class="text-sm font-light text-gray-400">Private Project</p>
                     <ul class="list-disc list-inside mt-2 text-gray-300 space-y-1">
                         <li>Designed and developed a professional website for FMI.</li>
+                        <li>Implemented a secure content management system for easy updates.</li>
                     </ul>
                 </div>
-                <!-- Project Item 2 -->
-                <div class="bg-gray-700 p-6 rounded-2xl shadow-md">
+                <div class="bg-gray-700 p-6 rounded-2xl shadow-md transition-all duration-300 hover:bg-gray-600">
+                    <img src="images/chef.png" alt="Chef Friend Project" class="rounded-xl w-full h-40 object-cover mb-4">
                     <h3 class="text-xl font-semibold text-purple-300">Chef Friend Portfolio Website</h3>
-                    <p class="text-sm font-light text-gray-400">Website: <a href="https://cheffriendtrading.com/" class="text-blue-400 hover:underline">https://cheffriendtrading.com/</a></p>
+                    <p class="text-sm font-light text-gray-400">Website: <a href="https://cheffriendtrading.com/" target="_blank" class="text-blue-400 hover:underline">https://cheffriendtrading.com/</a></p>
                     <ul class="list-disc list-inside mt-2 text-gray-300 space-y-1">
                         <li>Development and design of a website for a company specializing in high-quality food products.</li>
                     </ul>
                 </div>
-                <!-- Project Item 3 -->
-                <div class="bg-gray-700 p-6 rounded-2xl shadow-md">
+                <div class="bg-gray-700 p-6 rounded-2xl shadow-md transition-all duration-300 hover:bg-gray-600">
+                    <img src="images/point.png" alt="Point Website Project" class="rounded-xl w-full h-40 object-cover mb-4">
                     <h3 class="text-xl font-semibold text-purple-300">Point Website</h3>
-                    <p class="text-sm font-light text-gray-400">Website: <a href="https://fhc.com.sa" class="text-blue-400 hover:underline">https://fhc.com.sa</a></p>
+                    <p class="text-sm font-light text-gray-400">Private Project</p>
                     <ul class="list-disc list-inside mt-2 text-gray-300 space-y-1">
                         <li>Designed and developed four web applications for Point.</li>
+                        <li>Successfully deployed applications to a cloud environment, ensuring high availability and performance.</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <!-- Footer Section -->
         <footer class="text-center text-gray-500 text-sm mt-8">
             <p>&copy; 2025 Abdullah Mufarreh Alanezi. All rights reserved.</p>
         </footer>
 
     </div>
 </body>
-</html> 
+</html>
